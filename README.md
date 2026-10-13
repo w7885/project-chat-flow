@@ -62,14 +62,15 @@ C:\Users\<用户名>\.agents\skills\project-chat-flow\
 - 读取交接状态时会核对相关文件和 Git 状态；发现记录过期或与当前工作区冲突时会指出，不会默默当作最新事实。
 - 不会仅因读取或恢复任务而改写状态文件；只有用户要求记录进展或调整计划时才更新。
 
-## 文件结构
+## 仓库结构
 
 ```text
-project-chat-flow/
-├── SKILL.md
+.
 ├── README.md
-└── agents/
-    └── openai.yaml
+└── project-chat-flow/
+    ├── SKILL.md
+    └── agents/
+        └── openai.yaml
 ```
 
 更多关于 Skill 结构和 Codex 安装位置的信息，请参阅[官方文档：Build skills](https://learn.chatgpt.com/docs/build-skills)。
